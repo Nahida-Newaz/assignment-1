@@ -1,0 +1,142 @@
+/* header style */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+
+    border-radius: 16px;
+
+
+
+
+}
+
+.container {
+    width: 82.5%;
+    max-width: 1320;
+    margin: 0px auto;
+}
+
+.banner {
+
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner.png);
+    padding: 177px 0;
+    margin-bottom: 50px;
+    width: 82.5%;
+    max-width: 1320;
+    margin: 0px auto;
+
+}
+
+.banner-wish {
+    font-family: 'Merriweather', serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.discount {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+
+.comment {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.every {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section1 {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 80px auto;
+}
+
+.enjoy {
+    width: 642px;
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.section2 {
+    background-image: url('../resources/Vectorrr.png');
+    max-width: 1320px;
+    height: 600px;
+    width: 82.5%;
+    margin: 80px auto;
+}
+
+.section2p {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+.twice{
+    margin-left: 138px;
+
+    }
+}
+.flex{
+    display: flex;
+   
+
+}
+
+.combined{
+   
+}
+
+.sec2img{
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 68px;
+}
