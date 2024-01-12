@@ -63,8 +63,8 @@ header {
 
 }
 
-h3{
-    text-align:center ;
+h3 {
+    text-align: center;
 }
 
 .comment {
@@ -125,10 +125,13 @@ h3{
     font-weight: 400;
     line-height: 30px;
 
-    .twice {
-        width: 642px;
 
-    }
+}
+
+.twice {
+    /* max-width: 630px; */
+
+
 }
 
 .flex {
@@ -136,8 +139,9 @@ h3{
 
 }
 
-.combined {
+.combined .section2p p {
     margin: 124px 138px 0 124px;
+    /* max-width: 575px; */
 
 }
 
@@ -153,12 +157,13 @@ h3{
 
 }
 
-.four {
+.three {
     max-width: 1320px;
     max-height: 482px;
     flex-shrink: 0;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 100px 386px 126px 385px;
+    margin: 80px auto;
 }
 
 .add {
@@ -179,7 +184,8 @@ span {
 
 .step1 {
     font-family: Inter;
-    font-size: 32px;
+    text-align: center;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
@@ -196,5 +202,39 @@ span {
     text-transform: uppercase;
     background-color: #F00;
     border: none;
-    
+    margin-left: 220px;
+    margin-top: 50px;
+
+}
+
+.conain {
+    display: flex;
+}
+
+.sec4h3 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.sec4h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sec4p1 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    /* 160% */
 }
